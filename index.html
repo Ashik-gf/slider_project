@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Slider</title>
+</head>
+
+<body class=" bg-[#2F6690]">
+
+    <div class="container min-h-screen  flex justify-center items-center gap-8 w-full h-[300px] rounded-md">
+        <img class=" left-btn rounded-full shadow-md shadow-white rotate-180 cursor-pointer" src="./images/icons8-arrow.gif" />
+
+        <!-- Slider -->
+        <div class="fram relative  h-[300px] w-[800px] border-2 border-[#637e92] overflow-y-hidden rounded-md">
+           <div class="slider h-full w-[800px] flex  items-center  ">
+            <img class="image " src="./images/1.jpg"/>
+            <img class="image " src="./images/2.jpg"/>
+            <img class="image " src="./images/3.jpg"/>
+            <img class="image " src="./images/4.jpg"/>
+           </div>
+           <div class=" absolute top-1 right-[50%] bg-gray-400 rounded-md px-6 py-6 bg-opacity-20 text-white">
+           <div class="w-20 h-[400px] bg-gray-500 bg-opacity-30"></div>
+           </div>
+        </div>
+
+
+        <img class=" right-btn rounded-full shadow-md shadow-white cursor-pointer " src="./images/icons8-arrow.gif" />
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
